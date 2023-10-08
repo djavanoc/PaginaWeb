@@ -46,7 +46,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
 html,body{
     font-family: 'Poppins', sans-serif;
 }
@@ -56,11 +55,9 @@ height: 96px;
 background: url(../imagens/logo.png) no-repeat 0 0; 
 display: block;
 }
-
 .logo {
     float: left;
 }
-
 .menu {
     float: right;
 }
@@ -74,7 +71,6 @@ display: block;
 	font-size: 14px;
 	line-height: 16px;
 }
-
 .clear{
     clear: both;
 }
@@ -82,11 +78,9 @@ display: block;
     width: 1110px;
     margin: 0 auto;
   }
-
   .apresentacao{
 	padding-top: 40px;
 }
-
 .apresentacaoBox{
     padding-top: 20px;
 }
@@ -96,25 +90,21 @@ display: block;
 	float: left;
 	padding-top: 60px;
 }
-
 .apresentacaoImagem{
     width: 50%;
 	float: right;
-	
 }
 .title-apresentacao{
     color: #3b3322;
     font-size: 44px;
     line-height: 48px;
 }
-
 .descricao-apresentacao{
 	color: #544837;
 	font-size: 18px;
 	line-height: 24px;
 	margin: 40px 0 30px 0;
 }
-
 .bt-amarelo{
 	background: #FFD700;
 	font-size: 16px;
@@ -127,4 +117,60 @@ display: block;
 	border: none;
 	cursor: pointer;
 }
-
+/* parte dos links uteis */
+.titulo_links_uteis{
+    font-size: 34px;
+    line-height: 36px;
+    color: #060606;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+.subititulo_links_uteis{
+    color: #060606;
+    font-size: 20px;  
+}
+.links_uteis_imagem{
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100px;
+    left: 100px;
+    margin: 50px auto 10px auto;
+}
+.nome_links_uteis{
+    font-size: 32px;
+    line-height: 34px;
+    color: #060606;
+    font-weight: 500;
+}
+.nome_inst{
+    font-size: 14px;
+    color: #3a3737;
+    font-weight: 600;
+    display: block;
+    margin: 10px 0 20px 0;
+}
+.descricao_inst{
+    color: #3d60ac;
+    line-height: 24px;
+}
+.box_links{
+    text-align: center;
+}
+.bullets{
+    text-align: center;
+    margin-top: 50px;
+}
+.bullet{
+    background: #aba4af;
+    opacity: .2;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 16px;
+}
+.bullet.ativo{
+    background: #FFD700;
+    opacity: 1;
+}
