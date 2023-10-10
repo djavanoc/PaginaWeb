@@ -68,7 +68,7 @@ display: block;
 .menu__link{
 	color: #060606;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 16px;
 }
 .clear{
@@ -78,13 +78,12 @@ display: block;
     width: 1110px;
     margin: 0 auto;
   }
-  .apresentacao{
+.apresentacao{
 	padding-top: 40px;
 }
 .apresentacaoBox{
     padding-top: 20px;
 }
-
 .apresentacaoDescricao{
 	width: 50%;
 	float: left;
@@ -117,6 +116,51 @@ display: block;
 	border: none;
 	cursor: pointer;
 }
+/* parte dos posts recentes */
+.post{
+    padding-top: 100px;
+}
+.post_box{
+    width: 33.33%;
+    float: left;
+}
+.post_title{
+    color: #2f281e;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    display: block;
+    padding: 20px 0 10px 0;
+}
+.post_subtitle{
+    color: #5d523d;
+    font-size: 16px;
+    line-height: 18px;
+}
+.post_imagem{
+	overflow: hidden;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.posts{
+    padding-top: 80px;
+}
+.post_warpper{
+    padding: 0 15px;
+}
+.post_link{
+    text-decoration: none;
+}
+.img-responsiva{
+	width: 100%;
+}
+.clear{
+    clear: both;
+  }
 /* parte dos links uteis */
 .titulo_links_uteis{
     font-size: 34px;
